@@ -1,9 +1,26 @@
-  .logo img {
+  @font-face {
+    font-family: 'Primary';
+    src: url('../assets/primary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Primary', sans-serif;
+}
+  
+  
+.logo img {
       height: auto;
       width: 180px;
       cursor: pointer;
   }
-
+:root {
+    --text-primary: #424242;
+}
   /* navbar css */
   *{
       margin:0;
@@ -310,5 +327,34 @@
     line-height: 2;
 }
 
+.Varsity{
+    max-width: 1220px;
+    /* background-color: red; */
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    line-height: 1.8;
+}
 
+.Varsity h2{
+  color : text-primary;
+  font-size: 1.7rem;
+  font-weight: 350;
+}
 
+.Varsity p{
+    font-size: 18px;
+    color: #666;
+    text-decoration: none;
+    line-height: 1.8;
+    max-width: 600px;
+}
+
+.varsity-right a {
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 600;
+}
