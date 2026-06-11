@@ -11,7 +11,11 @@
     box-sizing: border-box;
     font-family: 'Primary', sans-serif;
 }
-  
+
+img {
+    max-width: 100%;
+    height: auto;
+}
   
 .logo img {
       height: auto;
@@ -54,6 +58,20 @@
       color:#444;
   }
 
+  .nav-toggle {
+      display: none;
+  }
+
+  .hamburger {
+      display: none;
+      font-size: 28px;
+      cursor: pointer;
+      color: #424242;
+  }
+
+  .hamburger .close-icon {
+      display: none;
+  }
 
   /* footer css */
   .footer {
